@@ -6,10 +6,10 @@ A package to auto correct outputs from Large language models (LLMs). It does the
 - Auto corrects invalid outputs that don't meet the specification
 - Optionally check if the output meets the specified requirements eg: Ensure that the response ends with a question
 
-
 ## How it works
 1. Set your OPENAI_API_KEY as an env variable
 2. Use the package like this:
+
 ```typescript
 import { createChatCompletion } from 'guardian-llm'
 
